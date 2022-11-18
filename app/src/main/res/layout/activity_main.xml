@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/manhinhmain"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="320dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif"
+        android:text="PLAY"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:iconTint="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/highScoreBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif"
+        android:text="HIGH SCORE"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playBtn"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/guideBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif"
+        android:text="HOW TO PLAY"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highScoreBtn"
+        app:layout_constraintVertical_bias="0.04000002" />
+
+    <Button
+        android:id="@+id/quitBtn"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:fontFamily="sans-serif"
+        android:text="QUIT"
+        android:textSize="23sp"
+        app:iconTint="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideBtn"
+        app:layout_constraintVertical_bias="0.252" />
+</androidx.constraintlayout.widget.ConstraintLayout>

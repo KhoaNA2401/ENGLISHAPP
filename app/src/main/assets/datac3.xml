@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionNareC3>
+    <Item>
+        <ID>1</ID>
+        <Question>are</Question>
+        <Answer>are</Answer>
+    </Item>
+
+    <Item>
+        <ID>2</ID>
+        <Question>has</Question>
+        <Answer>has</Answer>
+    </Item>
+
+    <Item>
+        <ID>3</ID>
+        <Question>six</Question>
+        <Answer>six</Answer>
+    </Item>
+
+    <Item>
+        <ID>4</ID>
+        <Question>ten</Question>
+        <Answer>ten</Answer>
+    </Item>
+
+    <Item>
+        <ID>5</ID>
+        <Question>sky</Question>
+        <Answer>sky</Answer>
+    </Item>
+
+    <Item>
+        <ID>6</ID>
+        <Question>e/e/s/g/m/n/t</Question>
+        <Answer>segment</Answer>
+    </Item>
+
+    <Item>
+        <ID>7</ID>
+        <Question>p/p/e/r/h/a/s</Question>
+        <Answer>perhaps</Answer>
+    </Item>
+
+    <Item>
+        <ID>8</ID>
+        <Question>l/l/m/o/e/c/u/e</Question>
+        <Answer>molecule</Answer>
+    </Item>
+
+    <Item>
+        <ID>9</ID>
+        <Question>e/r/u/s/e/a/m</Question>
+        <Answer>measure</Answer>
+    </Item>
+
+    <Item>
+        <ID>10</ID>
+        <Question>i/i/s/m/g/e/n</Question>
+        <Answer>imagine</Answer>
+    </Item>
+
+</QuestionNareC3>
